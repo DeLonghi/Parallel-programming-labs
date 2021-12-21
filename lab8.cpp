@@ -133,7 +133,7 @@ int main(int argc, char *argv[])
 
         if (rank == 0)
         {
-            cout << "#" << size_i << endl;
+            cout << "#" << size_i + 1 << endl;
             cout << "Size (MB): " << ballSizeInMegaByte << endl;
             cout << "Transfer time (Sec): " << elapsedTime << endl;
             cout << "Bandwidth (MB/s): " << 2 * ballSizeInMegaByte * mainIterations / elapsedTime << endl;
