@@ -55,7 +55,7 @@ int main(int argc, char **argv)
     {
         delta = MPI_Wtime() - start;
         cout << "Total sum:     " << sum << endl;
-        cout << "Execution time:     " << (delta)*1'000;
+        cout << "Execution time:     " << delta;
     }
 
     MPI_Finalize();
